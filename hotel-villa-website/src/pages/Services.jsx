@@ -1,41 +1,47 @@
 import React from "react";
+import food from "../assets/food.jpg";
+import room from "../assets/room.jpg";
+import air from "../assets/airport1.jpg";
+import pool from "../assets/pool.jpg";
+import spa from "../assets/spa.webp";
+import luxroom from "../assets/luxroom.jpg";
 
 const services = [
   {
     title: "Fine Dining Buffet",
     description:
       "Enjoy gourmet meals with a wide variety of local and international dishes in our elegant buffet restaurant.",
-    image: "src/assets/food.jpg",
+    image: food,
   },
   {
     title: "Room Service 24/7",
     description:
       "Relax and let us bring delicious meals, drinks, and amenities straight to your luxury room, anytime you desire.",
-    image: "src/assets/room.jpg",
+    image: room,
   },
   {
     title: "Spa & Wellness",
     description:
       "Unwind with our rejuvenating spa treatments, massages, and wellness therapies designed to refresh your soul.",
-    image: "/assets/spa.webp",
+    image: spa,
   },
   {
     title: "Airport Shuttle",
     description:
       "Travel hassle-free with our private airport shuttle services available for all guests.",
-    image: "src/assets/airport1.jpg",
+    image: air,
   },
   {
     title: "Swimming Pool",
     description:
       "Dive into our stunning outdoor pools, surrounded by tropical gardens and luxurious lounging areas.",
-    image: "src/assets/pool.jpg",
+    image: pool,
   },
   {
     title: "Luxury Rooms & Suites",
     description:
       "Experience the ultimate comfort with beautifully designed rooms offering breathtaking views and modern amenities.",
-    image: "src/assets/luxroom.jpg",
+    image: luxroom,
   },
 ];
 

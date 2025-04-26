@@ -1,4 +1,5 @@
 import React from "react";
+import hotelImage from "../assets/Hotel.jpg";
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
 
         <div>
           <img
-            src="/assets/Hotel.jpg"
+            src={hotelImage}
             alt="Hotel Paradise View"
             className="rounded-3xl shadow-2xl w-full h-auto object-cover"
           />

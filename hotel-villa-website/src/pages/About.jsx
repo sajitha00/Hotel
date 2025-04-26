@@ -1,4 +1,7 @@
 import React from "react";
+import one from "../assets/1.jpg";
+import two from "../assets/2.jpg";
+import three from "../assets/3.jpg";
 
 const About = () => {
   return (
@@ -6,19 +9,19 @@ const About = () => {
       <div className="flex flex-col gap-6 w-full md:w-1/2">
         <div className="flex gap-6">
           <img
-            src="src/assets/1.jpg"
+            src={one}
             alt="About Image 1"
             className="w-1/2 h-60 object-cover rounded-lg shadow-md"
           />
           <img
-            src="src/assets/2.jpg"
+            src={two}
             alt="About Image 2"
             className="w-1/2 h-60 object-cover rounded-lg shadow-md"
           />
         </div>
         <div>
           <img
-            src="src/assets/3.jpg"
+            src={three}
             alt="About Image 3"
             className="w-full h-60 object-cover rounded-lg shadow-md"
           />
