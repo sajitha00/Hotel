@@ -38,7 +38,7 @@ const Home = () => {
 
         <div>
           <img
-            src="src/assets/Hotel.jpg"
+            src="/assets/Hotel.jpg"
             alt="Hotel Paradise View"
             className="rounded-3xl shadow-2xl w-full h-auto object-cover"
           />

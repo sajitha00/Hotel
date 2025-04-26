@@ -17,7 +17,7 @@ const services = [
     title: "Spa & Wellness",
     description:
       "Unwind with our rejuvenating spa treatments, massages, and wellness therapies designed to refresh your soul.",
-    image: "src/assets/spa.webp",
+    image: "/assets/spa.webp",
   },
   {
     title: "Airport Shuttle",
